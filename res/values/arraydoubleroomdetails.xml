@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_double_room_details">
+        <item>Capacidad para 4 personas</item>
+        <item>2 Camas Matrimoniales</item>
+        <item>Conexión wi-fi</item>
+        <item>Televición por Cable</item>
+        <item>Baño Privado con Ducha</item>
+        <item>Se cuenta con 8 Habitaciones de este tipo</item>
+    </string-array>
+</resources>

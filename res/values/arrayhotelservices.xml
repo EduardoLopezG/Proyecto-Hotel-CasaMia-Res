@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_hotel_services">
+        <item>Habitaciones Familiares/No Familiares</item>
+        <item>Televición por cable</item>
+        <item>Habitaciones con baño privado y ducha</item>
+        <item>Conexión wi-fi gratuita en todas las áreas</item>
+        <item>Estacionamiento gratuito (de 09:00 pm a 09:00 am)</item>
+        <item>Área designada para fumar</item>
+    </string-array>
+</resources>

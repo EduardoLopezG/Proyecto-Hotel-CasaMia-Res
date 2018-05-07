@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_details_simple_room">
+        <item>Capacidad para 1 o 2 Personas</item>
+        <item>1 Cama Matrimonial</item>
+        <item>Conexión wi-fi</item>
+        <item>Televición por Cable</item>
+        <item>Baño Privado con Ducha</item>
+        <item>Se cuenta con 4 Habitaciones de este tipo</item>
+    </string-array>
+</resources>

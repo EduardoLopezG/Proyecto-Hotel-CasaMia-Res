@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayRoomType">
+        <item>Seleccione..</item>
+        <item>Habitación Sencilla</item>
+        <item>Habitación Doble</item>
+        <item>Habitación Matrimonial</item>
+    </string-array>
+</resources>

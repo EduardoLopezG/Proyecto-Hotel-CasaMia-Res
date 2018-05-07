@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eduardo.hotelcasamia.ReservationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/idTitleReservation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/textTitleReservations"
+                android:textAlignment="center"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/idEdtName"
+                android:layout_below="@id/idTitleReservation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/edtNameHint"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/idEdtPhoneNumber"
+                android:layout_below="@id/idEdtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/edtPhoneNumberHint"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/idbtnDateIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/idEdtPhoneNumber"
+                android:layout_alignStart="@+id/idEdtPhoneNumber"
+                android:layout_below="@+id/idEdtPhoneNumber"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorAccent"
+                android:text="@string/textButtonDateIn"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:id="@+id/idTvDateIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/idbtnDateIn"
+                android:layout_alignBottom="@+id/idbtnDateIn"
+                android:layout_toEndOf="@+id/idbtnDateIn"
+                android:layout_toRightOf="@+id/idbtnDateIn"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/tvDateIn"
+                android:textSize="19dp" />
+
+            <Button
+                android:id="@+id/idbtnDateOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignLeft="@+id/idTextChildrenNumber"
+                android:layout_alignStart="@+id/idTextChildrenNumber"
+                android:layout_below="@+id/idbtnDateIn"
+                android:background="@color/colorAccent"
+                android:text="@string/textDateOutButton"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:id="@+id/idTvDateOut"
+                android:layout_toRightOf="@id/idbtnDateOut"
+                android:layout_below="@id/idTvDateIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/idbtnDateOut"
+                android:layout_alignBottom="@+id/idbtnDateOut"
+                android:layout_toEndOf="@+id/idbtnDateOut"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/tvDateOut"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/idTextChildrenNumber"
+                android:layout_below="@id/idTvDateOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/textTitleChildrenNumber"
+                android:textSize="17dp" />
+
+            <Spinner
+                android:id="@+id/idSpnChildrenNumber"
+                android:layout_below="@id/idTextChildrenNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/idTextAdultsNumber"
+                android:layout_below="@id/idSpnChildrenNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/textTitleAdultsNumber"
+                android:textSize="17dp" />
+
+            <Spinner
+                android:id="@+id/idSpnAdultsNumber"
+                android:layout_below="@id/idTextAdultsNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/idTextRoomType"
+                android:layout_below="@id/idSpnAdultsNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/textTitleRoomType"
+                android:textSize="17dp" />
+
+            <Spinner
+                android:id="@+id/idSpnRoomType"
+                android:layout_below="@id/idTextRoomType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <Button
+                android:id="@+id/idbtnMakeReservation"
+                android:layout_below="@id/idSpnRoomType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/textDoneReservationButton"
+                android:textColor="@color/White"
+                android:background="@color/green" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

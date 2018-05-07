@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_hotel_external_services">
+        <item>Restaurantes</item>
+        <item>Bancos</item>
+        <item>Cajeros automáticos</item>
+        <item>Mercado de artesanias</item>
+        <item>Aeropuerto (Aeropuerto del Bajio)</item>
+        <item>Mercados y Supermercados</item>
+    </string-array>
+</resources>

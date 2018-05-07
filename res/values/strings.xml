@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Hotel CasaMia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Option in MainFragment -->
+    <string name="action_login">Entrar</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- Text to share -->
+    <string name="text_share_experience">Me encuentro en un buen lugar, ¿Por qué no le hechas un vistazo? https://www.hotelcasamia.com.mx/</string>
+    <!-- Text in social fragment -->
+    <string name="text_static_message_experience">Oye tu opinión es muy importante para nosotros así que, ¿Por qué no la compartes con todos tus amigos?</string>
+    <string name="text_hello_experience">!Hola¡</string>
+    <string name="text_footer_first">Imágenes pertenecientes a:</string>
+    <string name="text_footer_second">Twitter.com - Facebook.com - WhatsApp.com - pexels.com</string>
+
+    <!-- Text Places List -->
+    <!-- Church Nuestra Señora de los Dolores -->
+    <string name="church_sedolores_name">Parroquia de Nuestra Señora de los Dolores</string>
+    <string name="church_sedolores_short_description">La histórica parroquia de Nuestra Señora de los Dolores es el mejor ejemplo del barroco novo hispano de finales del siglo 18. La primera piedra de la parroquia fue colocada el 2 de febrero de 1712..</string>
+    <string name="church_sedolores_large_description">La histórica parroquia de Nuestra Señora de los Dolores es el mejor ejemplo del barroco novo hispano de finales del siglo 18. La primera piedra de la parroquia fue colocada el 2 de febrero de 1712 y su terminación
+        llegó hasta 1778. Aquí fue donde el cura Miguel Hidalgo y Costilla, Ignacio Allende y Juan Aldama convocaron a los habitantes al llamado de la campana y comenzó la Guerra de independencia de México en la madrugada del 16 de septiembre de 1810. Este acto es conocido como el grito de Dolores.
+        Por dentro, encontramos un altar neoclásico dedicado a la Virgen de los Dolores, patrona del pueblo de Dolores, y a los costados encontramos dos extraordinarios retablos. Uno hecho de madera de anacahuita y el otro completamente dorado.
+        Hotel CasaMia lo invita a visitar este inmueble emblemático de nuestra historia mexicana a unos cuantos pasos de nuestras instalaciones.</string>
+
+    <!-- Casa Hidalgo Museum -->
+    <string name="museum_hidalgo_name">Museo Casa de Hidalgo</string>
+    <string name="museum_hidalgo_short_description">Don Miguel Hidalgo y Costilla vivió en esta casa de 1804 a 1810, periodo en el que fue párroco de Dolores Hidalgo. La casa fue construida en 1979 por el cura José Salvador Fajardo, uno de sus antecesores en el curato....</string>
+    <string name="museum_hidalgo_large_description">Miguel Hidalgo se dedicó a mejorar la vida de los dolorenses. El cura instalo talleres de oficios, planto vides para extender el cultivo de la uva y moreras con las que propago la cría del gusano de seda y abejas. También fundo una fabrica de loza y
+        otra de ladrillo. Además, alentaba a los pobladores a aprender a tocar música, recorría poblados y ciudades vecinas donde tenia amistades que pertenecían al clero, a la aristocracia, al ejercito y al gobierno.
+        Don Miguel Hidalgo y Costilla vivió en esta casa de 1804 a 1810, periodo en el que fue párroco de Dolores Hidalgo. La casa fue construida en 1979 por el cura José Salvador Fajardo, uno de sus antecesores en el curato. El museo-casa de Miguel Hidalgo conserva la biblioteca que perteneció al padre
+        la patria quien era un ávido lector. También se conserva la recamara donde descansaba después de arduos días de trabajo dedicados al progreso de la localidad. Por otro lado, la cocina no solo refleja la riqueza de la gastronomía Mexicana si no también la manera en que estaban construidas en aquel entonces.
+        Lo invitamos a visitar este museo durante su estadía en Hotel CasaMia. Abierto de martes a sábado de 9:00 am a 5:30 pm y domingo de 9:00 am a 4:30 pm. Entrada $36.00.</string>
+
+    <!-- Jose Alfredo Jimenez Museum -->
+    <string name="museum_jalfredo_name">Casa Museo José Alfredo Jiménez</string>
+    <string name="museum_jalfredo_short_description">El museo presenta, de manera cronológica y temática, un recorrido por los diversos periodos y aspectos de la vida y obra de José Alfredo. Cuenta con 10 salas y cada una lleva el nombre de canciones de su autoría.</string>
+    <string name="museum_jalfredo_large_description">El museo presenta de manera cronológica y temática, un recorrido por los diversos periodos y aspectos de la vida y obra de José Alfredo, con una museografía dinámica y contemporánea, de acero y cristal, que contrasta con el carácter artesanal de la arquitectura.
+        A lo largo de pequeñas salas de resplandeciente luz, color y textura alineadas a uno y otro lado del patio, la exposición permanente presenta un derroche de información, en el que se combinan composiciones gráficas, fotografías, ambientaciones sonoras, videos y cancioneros interactivos, con la exhibición de objetos personales,
+        discos, trofeos, diplomas y otros testimonios de los múltiples homenajes que recibió y aún sigue recibiendo.
+        El proyecto de adaptación arquitectónica de la casa natal para dotarla de las instalaciones y servicios que requiere su nueva función, así como el guión y el diseño museográfico, estuvieron a cargo del Arq. Jorge Agostoni, de Museográfica SC.</string>
+
+    <!-- Independence Museum -->
+    <string name="museum_indepenM_name">Museo de la Independencia</string>
+    <string name="museum_indepenM_short_description">El museo de la independencia nacional fué fundado el 15 de septiembre de 1985. Como su nombre lo dice, este museo exhibe objetos y documentos relacionados con la guerra de independencia de México....</string>
+    <string name="museum_indepenM_large_description">Ubicado a media cuadra de Hotel CasaMia, el museo  de la independencia nacional fué fundado el 15 de septiembre de 1985. Como su nombre lo dice, este museo exhibe objetos y documentos relacionados con la guerra de independencia de México. Además, sus siete salas nos relatan historias de la
+        independencia a través de murales y arte creados nada más y nada menos que por artistas dolorenses. Cabe mencionar que en los tiempos de don Miguel Hidalgo y Costilla, este edificio funcionaba como carcel municipal y fué aqui donde el mismo libertador sacó a los presos para invitarlos a unirse a la lucha de independencia en la madrugada
+        del 16 de septiembre de 1810.
+        Ubicado en la calle Zacatecas 6 en el centro de Dolores Hidalgo, el museo esta abierto al público de Lunes a Sabado de 9:00 am a 4:30 pm y Domingo de 9:00 am a 3:30 pm. Entrada:  $15.00</string>
+
+    <!-- Vine Museum -->
+    <string name="museum_vine_name">Museo del vino</string>
+    <string name="museum_vine_short_description">Este lugar ofrece una experiencia de primer nivel al estar ubicado en un hotel boutique. Aquí, puedes conocer la historia de la vid y el proceso por el que es sometido la uva para convertirse en un buen vino.</string>
+    <string name="museum_vine_large_description">Ubicado en el Antiguo Hospital de Dolores Hidalgo, este es el más reciente museo que resalta la enología del Valle de la Independencia a través de 4 salas interactivas, donde se narra la cronología de la historia del vino, reseñas de los viñedos de Hidalgo, los oficios del vino, el proceso de elaboración del vino y
+        la vendimia, fabricación y uso de barricas así como los distintos tipos de botellas a través del tiempo. En la sala sensorial descubrirás el arte de la cata a través de la interacción de forma lúdica, mostrando los productores guanajuatenses y las etiquetas que producen.</string>
+
+    <!-- Bicentenario Museum -->
+    <string name="museum_bicentenerio_name">Museo Bicentenario</string>
+    <string name="museum_bicentenerio_short_description">El museo bicentenario fué edificado en el siglo 18. En ese entonces, el recinto fué hogar de la pudiente familia Abasolo que vivía en las catorce habitaciones que existen hoy en día. ...</string>
+    <string name="museum_bicentenerio_large_description">Ubicado a media cuadra de Hotel CasaMia, el museo bicentenario fué edificado en el siglo 18. En ese entonces, el recinto fué hogar de la pudiente familia Abasolo que vivía en las catorce habitaciones que existen hoy en día. Sin embargo, debido al movimiento de independencia, fueron confiscados todos los bienes de los
+        heroes de la independencia, incluido Mariano Abasolo.
+        En 1915, el edificio fué recuperado por la administración municipal ya se que se encontraba en completo abandono. A partir del año 1916 hasta el 2006, funcionó como recinto de la casa de gobierno local. Se decide venderla al gobierno municipal en 1906 siendo presidente municipal Francisco González Caballero para que sea la casa del ayuntamiento de Dolores Hidalgo
+        y cede de las deciciones políticas, económicas, históricas para la Cuna de la Independencia. Por motivo de los festejos del bicentenario, se convirtió en el museo bicentenario, mismo que alberga una réplica de la campana que sonó Miguel Hidalgo y Costilla el 16 de septiembre de 1810. Cabe mencionar que esta campana fué forjada en cobre y pesa 500 kilos.
+        Además, existen dos murales dentro de este edificio. Uno de ellos, se encuentra en la planta baja y es llamado mural de la independencia. El otro mural de estilo contemporaneo se encuentra en la planta alta y lleva como nombre mural de la independencia, ayer y hoy. Dentro de sus salas, se encuentran vitrales pintados a mano dedicados a los heroes patrios así como
+        fotografías antiguas de Guanajuato y Dolores Hidalgo. Además, se muestran mas de 825 articulos en vitrinas así como una sala recreativa para los niños.
+    Ubicado en la plaza principal a un costado de la parroquia de Nuestra Señora de los Dolores, el museo esta abierto al público de Lunes a Domingo de 9:00 am a 5:00. Entrada general:  $20.00, estudiante con credencial: $10.00.</string>
+
+    <!-- Information Text -->
+    <string name="informationHotel_text_one">Nuestro hotel está basado en un concepto único con un estilo regional en cuanto a su estructura y colores.</string>
+    <string name="informationHotel_text_two">Hotel CasaMia es un hotel económico de categoría dos estrellas que se distingue por su amabilidad, limpieza y ubicación privilegiada en el centro histórico de Dolores Hidalgo, Cuna de la Independencia Nacional, en el estado de Guanajuato.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello brou! xD</string>
+    <string name="Log_out_message">Adiós, vuelve pronto</string>
+    <string name="emptyEmailMessage">Por favor ingrese un Correo</string>
+    <string name="emptyPasswordMessage">Por favor ingrese una Contraseña</string>
+    <string name="MakingReservationProgressMessage">Realizando Registro...</string>
+    <string name="emailRegistredMessage">Este correo ya ha sido registrado</string>
+    <string name="doNotRegistredUserMessage">No se pudo registrar el usuario</string>
+    <string name="LogingInProgressMassage">Ingresando...</string>
+    <string name="userDoExistMessageLogIn">Este usuario ya existe</string>
+    <string name="checkUserAndPasswordMessageLogIn">Revice que su correo y contraseña sean correctos</string>
+    <string name="logOutApplicationMessage">¿Seguro desea salir de la aplicación?</string>
+    <string name="TitleLogOutApplicationMessage">Salir</string>
+    <string name="selectReservationMessage">Por favor escoja una reservación</string>
+    <string name="selectChildrenNumberMessage">Escoja cantidad de niños</string>
+    <string name="selectAdultsNumberMessage">Escoja cantidad de adultos</string>
+    <string name="selectRoomTypeMessage">Elija un tipo de habitación</string>
+    <string name="reservationModifiquedMessage">Se ha modificado la reservación</string>
+    <string name="reservationDeletedMessage">Se ha borrado la reservación</string>
+    <string name="emptyNameMessage">Por favor ingrese su nombre</string>
+    <string name="emptyPhoneNumberMessage">Por favor ingrese su número teléfonico</string>
+    <string name="emptyDateInMessage">Escoja su fecha de llegada</string>
+    <string name="emptyDateOutMessage">Escoja su fecha de salida</string>
+    <string name="userEmptyRoomTypeMessage">Por favor, escoja el tipo de habitación que desea</string>
+    <string name="resgistredReservationMessage">¡Excelente, se ha realizado tu reservación!</string>
+    <string name="titleYourHotelInformation">Información</string>
+    <string name="titleYourHotelServices">Servicios</string>
+    <string name="adminActivityWelcomeMessage">¡Bienvenido!</string>
+    <string name="textButtonManageReservations">Gestionar Reservaciones</string>
+    <string name="textLogOutButton">Cerrar Sesión</string>
+    <string name="textWriteEmailLogIn">Ingrese correo electrónico</string>
+    <string name="textWritePasswordLogIn">Ingrese contraseña</string>
+    <string name="textButtonResgistredLogIn">Registrarme</string>
+    <string name="textButtonLogIn">Iniciar Sesión</string>
+    <string name="titleManageReservationsActivity">Seleccione la reservación que desea modificar o eliminar</string>
+    <string name="edtNameHint">Nombre</string>
+    <string name="edtPhoneNumberHint">Número de Teléfono</string>
+    <string name="textButtonDateIn">Entrada</string>
+    <string name="tvDateIn">Presione para elegir fecha</string>
+    <string name="textDateOutButton">Salida</string>
+    <string name="tvDateOut">Presione para elegir fecha</string>
+    <string name="textTitleChildrenNumber">Número de Niños:</string>
+    <string name="textTitleAdultsNumber">Número de Adultos:</string>
+    <string name="textTitleRoomType">Tipo de Habitación:</string>
+    <string name="textUpdateReservationButton">Actualizar</string>
+    <string name="textDeleteReservationButton">Eliminar</string>
+    <string name="textTilteListReservations">Listado de Reservaciones</string>
+    <string name="textButtonSatelite">Satelite</string>
+    <string name="textButtonHybrid">Hibrido</string>
+    <string name="textButtonNormal">Normal</string>
+    <string name="textTitleReservations">Por favor, complete la siguiente información</string>
+    <string name="textDoneReservationButton">Hecho</string>
+    <string name="titleRoomsTypesActivity">Tipos de Habitaciones</string>
+    <string name="titleSimpleRoom">Habitación Sencilla</string>
+    <string name="titleDoubleRoom">Habitación Doble</string>
+    <string name="textRoomCharacteristics">Carácteristicas:</string>
+    <string name="titileBiggerRoom">Habitación Matrimonial</string>
+    <string name="welcomeMessageSplahScreen">Bienvenido a Hotel CasaMia</string>
+    <string name="textReserveButton">Reservar</string>
+    <string name="helpTextDetailPlaces">Description</string>
+    <string name="texHotelInformationTitelContactUs">Contáctanos</string>
+    <string name="textContactUs">Para precios y reservaciones llame al:</string>
+    <string name="textPhoneNumberContactUs">01 (418) 1822560</string>
+    <string name="textRoomsButton">Habitaciones</string>
+    <string name="textMeetUsButton">Conócenos</string>
+    <string name="titleHotelServices">Servicios del Hotel</string>
+    <string name="titleReceptionServices">Servicios de Recepción</string>
+    <string name="titleCloseServices">Servicios Cercanos al Hotel</string>
+    <string name="helpItemListTextName">Name</string>
+    <string name="helpItmListDescription">Description</string>
+    <string name="textMainMenuOption">Inicio</string>
+    <string name="textMyHotelMenuOption">Mi Hotel</string>
+    <string name="textVisitsMenuOption">Visitas</string>
+    <string name="textHowArriveMenuOption">Cómo llegar</string>
+    <string name="textShareExperienceMenuOption">Comparte tu experiencia</string>
+    <string name="textLogOutMenuOption">Salir</string>
+    <string name="firstTextUserMenu">Si desea modificar o cancelar una reservación llame al:</string>
+    <string name="first_part_message_places">Selecciono:</string>
+    <string name="positive_option_text_log_out">Si</string>
+    <string name="negative_option_text_log_out">No</string>
+    <string name="first_part_log_out_user_message">¡Bienvenido</string>
+    <string name="admiration_symbol_user_log_out">!</string>
+    <string name="first_part_sucessful_user_register">Se ha registrado el usuario con el email:</string>
+    <string name="first_part_message_welcome_log_in">Bienvenido:</string>
+    <string name="text_parking_marker_title">Estacionamiento</string>
+    <string name="text_hotel_marker_titile">Hotel CasaMia</string>
+    <string name="default_value_spinner">Seleccione..</string>
+
+</resources>

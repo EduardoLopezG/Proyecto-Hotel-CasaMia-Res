@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.eduardo.hotelcasamia.RoomsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/idTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titleRoomsTypesActivity"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/idCardSimpleRoom"
+                android:layout_below="@id/idTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="@color/cooffe">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleSimpleRoom"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/White" />
+
+            </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/idSimpleRoomImage"
+                android:layout_below="@id/idCardSimpleRoom"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/simpleroom" />
+
+            <TextView
+                android:id="@+id/idTextSimpleRoom"
+                android:layout_below="@id/idSimpleRoomImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textRoomCharacteristics"/>
+
+            <ListView
+                android:id="@+id/list_simple_room"
+                android:layout_below="@id/idTextSimpleRoom"
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:layout_marginTop="10dp"></ListView>
+
+            <TextView
+                android:id="@+id/idFirstLine"
+                android:layout_below="@id/list_simple_room"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/idCardDoubleRoom"
+                android:layout_below="@id/idFirstLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="@color/cooffe">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleDoubleRoom"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/White" />
+
+            </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/idDoubleRoomImage"
+                android:layout_below="@id/idCardDoubleRoom"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/doubleroom" />
+
+            <TextView
+                android:id="@+id/idTexDoubleRoom"
+                android:layout_below="@id/idDoubleRoomImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textRoomCharacteristics" />
+
+            <ListView
+                android:id="@+id/list_double_room"
+                android:layout_below="@id/idTexDoubleRoom"
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:layout_marginTop="10dp"></ListView>
+
+            <TextView
+                android:id="@+id/idSecondLine"
+                android:layout_below="@id/list_double_room"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/idCardBiggerRoom"
+                android:layout_below="@id/idSecondLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="@color/cooffe">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titileBiggerRoom"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/White" />
+
+            </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/idBiggerRoomImage"
+                android:layout_below="@id/idCardBiggerRoom"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/biggerroom" />
+
+            <TextView
+                android:id="@+id/idTextBiggerRoom"
+                android:layout_below="@id/idBiggerRoomImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textRoomCharacteristics" />
+
+            <ListView
+                android:id="@+id/list_bigger_room"
+                android:layout_below="@id/idTextBiggerRoom"
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:layout_marginTop="10dp"></ListView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
